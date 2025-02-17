@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Navigate } from "react-router-dom";
 import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Signup from "./pages/SignUp";
 import FarmerDashboard from "./pages/FarmerDashboard";
 import TransporterDashboard from "./pages/TransporterDashboard";
 const App = () => {
