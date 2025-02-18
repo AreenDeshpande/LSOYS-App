@@ -1,0 +1,119 @@
+
+.farmer-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    font-family: "Arial", sans-serif;
+  }
+  
+  
+  .order-form {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 400px;
+  }
+  
+  .order-form h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .order-form input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .order-form input:focus {
+    outline: none;
+    border-color: #4caf50;
+    box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+  }
+  
+
+  .order-form button {
+    background: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .order-form button:hover {
+    background: #388e3c;
+  }
+  
+
+  .message {
+    font-size: 0.9rem;
+    margin-bottom: 10px;
+  }
+  
+  .error {
+    color: red;
+  }
+  
+  .success {
+    color: green;
+  }
+  
+
+  .orders-list {
+    width: 90%;
+    max-width: 400px;
+    margin-top: 1.5rem;
+  }
+  
+  .orders-list h3 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  
+  .orders-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .order-item {
+    background: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .order-item strong {
+    font-weight: bold;
+  }
+  
+
+  .status-pending {
+    color: #ff9800;
+    font-weight: bold;
+  }
+  
+  .status-picked {
+    color: #4caf50;
+    font-weight: bold;
+  }
+  
+
+  @media (max-width: 480px) {
+    .order-form,
+    .orders-list {
+      width: 100%;
+    }
+  }
+  
